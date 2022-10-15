@@ -1,0 +1,72 @@
+
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
+}
+
+.heading span{
+  background-clip: text;
+  background-image: linear-gradient(to right, #3C1874, #283747);
+  color: transparent;
+  font-weight: bold;
+  font-size: 2.5rem;
+  
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colors {
+  display: flex;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+.colors .color {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #3c1874;
+}
+.colors .active {
+  border: 2px solid #000;
+}
+
+.toolbar button {
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #3c1874;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toolbar button svg {
+  height: 20px;
+  width: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
